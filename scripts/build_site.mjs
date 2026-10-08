@@ -2,8 +2,9 @@
 // claims the text makes, and inline the styles, script and data into one file.
 //
 //   node scripts/build_site.mjs physics
-// writes docs/physics/index.html (a complete page) and
-//        site/dist/physics.html (the same page without the document wrapper).
+// writes index.html at the top of the repository for physics (what GitHub Pages
+// serves at the site's address), <prize>/index.html for any other prize, and
+// site/dist/<prize>.html (the same page without the document wrapper).
 import fs from "node:fs";
 
 const prize = process.argv[2] || "physics";
@@ -151,6 +152,7 @@ html = html
 fs.mkdirSync("site/dist", { recursive: true });
 fs.writeFileSync(`site/dist/${prize}.html`, html);
 const full = `<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n${html.slice(0, html.indexOf("</style>") + 8)}\n</head>\n<body>\n${html.slice(html.indexOf("</style>") + 8)}\n</body>\n</html>\n`;
-fs.mkdirSync(`docs/${prize}`, { recursive: true });
-fs.writeFileSync(`docs/${prize}/index.html`, full);
-console.log(`site: docs/${prize}/index.html (${(full.length / 1024).toFixed(0)} KB)`);
+const out = prize === "physics" ? "index.html" : `${prize}/index.html`;
+if (out.includes("/")) fs.mkdirSync(prize, { recursive: true });
+fs.writeFileSync(out, full);
+console.log(`site: ${out} (${(full.length / 1024).toFixed(0)} KB)`);

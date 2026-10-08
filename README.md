@@ -5,7 +5,9 @@ The first one is **How to win the Physics Nobel**: an interactive, scroll-driven
 nomination for the Nobel Prize in Physics from 1901 to 1975 (4,019 letters, 5,964 nominations),
 followed by a searchable database of everyone nominated and a methodology section.
 
-Open `docs/physics/index.html` in a browser to read it. It is a single self-contained file.
+It is published with GitHub Pages at <https://semui01.github.io/Nobel2/>, which serves `index.html`
+from the top of the repository. The page is a single self-contained file, so you can also open
+`index.html` straight from a download in any browser.
 
 ## How it is built
 
@@ -37,7 +39,7 @@ fetch what is missing. The other prizes use the same pipeline (`--prize chemistr
 | `data/physics/people.csv` | everyone in the physics archive, with Nobel Prizes and nomination counts |
 | `data/physics/corrections.csv` | every change made to the archive's values, with its basis |
 | `data/physics/stats.json` | every figure quoted in the story |
-| `docs/physics/index.html` | the finished page |
+| `index.html` | the finished page (GitHub Pages serves it at the site's address) |
 
 ## Method in brief
 
