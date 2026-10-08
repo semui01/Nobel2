@@ -1,0 +1,1798 @@
+{
+ "first_year": 1901,
+ "last_year": 1975,
+ "nominations": 5964,
+ "letters": 4019,
+ "nominees": 707,
+ "nominators": 1803,
+ "anon_letters": 119,
+ "after_win": 122,
+ "after_win_people": 30,
+ "winners": 130,
+ "winners_by_end": 100,
+ "winners_after": 30,
+ "last_winner": [
+  2008,
+  "Yoichiro Nambu"
+ ],
+ "per_year": {
+  "1901": 35,
+  "1902": 35,
+  "1903": 43,
+  "1904": 37,
+  "1905": 30,
+  "1906": 23,
+  "1907": 40,
+  "1908": 31,
+  "1909": 76,
+  "1910": 69,
+  "1911": 34,
+  "1912": 41,
+  "1913": 51,
+  "1914": 47,
+  "1915": 29,
+  "1916": 48,
+  "1917": 43,
+  "1918": 42,
+  "1919": 39,
+  "1920": 34,
+  "1921": 35,
+  "1922": 70,
+  "1923": 24,
+  "1924": 40,
+  "1925": 43,
+  "1926": 54,
+  "1927": 42,
+  "1928": 46,
+  "1929": 99,
+  "1930": 59,
+  "1931": 38,
+  "1932": 58,
+  "1933": 72,
+  "1934": 98,
+  "1935": 57,
+  "1936": 44,
+  "1937": 108,
+  "1938": 36,
+  "1939": 49,
+  "1940": 59,
+  "1941": 21,
+  "1942": 23,
+  "1943": 26,
+  "1944": 24,
+  "1945": 27,
+  "1946": 38,
+  "1947": 48,
+  "1948": 51,
+  "1949": 73,
+  "1950": 64,
+  "1951": 65,
+  "1952": 62,
+  "1953": 64,
+  "1954": 74,
+  "1955": 88,
+  "1956": 129,
+  "1957": 110,
+  "1958": 90,
+  "1959": 83,
+  "1960": 130,
+  "1961": 86,
+  "1962": 106,
+  "1963": 135,
+  "1964": 150,
+  "1965": 159,
+  "1966": 177,
+  "1967": 181,
+  "1968": 178,
+  "1969": 195,
+  "1970": 197,
+  "1971": 186,
+  "1972": 182,
+  "1973": 267,
+  "1974": 245,
+  "1975": 272
+ },
+ "busiest_year": 1975,
+ "quietest_year": 1941,
+ "won_share_noms": 48,
+ "by_noms": [
+  {
+   "label": "1 nomination",
+   "n": 271,
+   "won": 7,
+   "pct": 3
+  },
+  {
+   "label": "2–4",
+   "n": 175,
+   "won": 17,
+   "pct": 10
+  },
+  {
+   "label": "5–9",
+   "n": 94,
+   "won": 21,
+   "pct": 22
+  },
+  {
+   "label": "10–19",
+   "n": 79,
+   "won": 38,
+   "pct": 48
+  },
+  {
+   "label": "20 or more",
+   "n": 88,
+   "won": 47,
+   "pct": 53
+  }
+ ],
+ "backers_10": {
+  "below": {
+   "n": 585,
+   "won": 56,
+   "pct": 10
+  },
+  "atleast": {
+   "n": 122,
+   "won": 74,
+   "pct": 61
+  }
+ },
+ "countries_bins": [
+  {
+   "label": "1 country",
+   "n": 372,
+   "won": 10,
+   "pct": 3
+  },
+  {
+   "label": "2–3",
+   "n": 183,
+   "won": 40,
+   "pct": 22
+  },
+  {
+   "label": "4 or more",
+   "n": 152,
+   "won": 80,
+   "pct": 53
+  }
+ ],
+ "swedish": {
+  "with": {
+   "n": 146,
+   "won": 63,
+   "pct": 43
+  },
+  "without": {
+   "n": 561,
+   "won": 67,
+   "pct": 12
+  },
+  "share_noms": 7.4
+ },
+ "laureate_bins": [
+  {
+   "label": "No laureate backer",
+   "n": 440,
+   "won": 32,
+   "pct": 7
+  },
+  {
+   "label": "1 laureate backer",
+   "n": 132,
+   "won": 28,
+   "pct": 21
+  },
+  {
+   "label": "2 or more",
+   "n": 135,
+   "won": 70,
+   "pct": 52
+  }
+ ],
+ "laureate_share_noms": 21,
+ "fit": {
+  "n": 49,
+  "won": 31,
+  "pct": 63
+ },
+ "overlooked": [
+  {
+   "name": "Nikolai Nikolaevic Bogoljubov",
+   "pid": 10921,
+   "noms": 59,
+   "other": []
+  },
+  {
+   "name": "Henri Poincaré",
+   "pid": 7313,
+   "noms": 51,
+   "other": []
+  },
+  {
+   "name": "Yevgeny Konstantinovich Zavoisky",
+   "pid": 10860,
+   "noms": 44,
+   "other": []
+  },
+  {
+   "name": "Cornelis Jacobus Gorter",
+   "pid": 3559,
+   "noms": 41,
+   "other": []
+  },
+  {
+   "name": "Robert Wood",
+   "pid": 10300,
+   "noms": 39,
+   "other": []
+  },
+  {
+   "name": "Geoffrey Ingram Taylor",
+   "pid": 13976,
+   "noms": 33,
+   "other": []
+  },
+  {
+   "name": "George Hale",
+   "pid": 3795,
+   "noms": 32,
+   "other": []
+  },
+  {
+   "name": "Walter Gerlach",
+   "pid": 3398,
+   "noms": 30,
+   "other": []
+  },
+  {
+   "name": "Lise Meitner",
+   "pid": 6097,
+   "noms": 30,
+   "other": []
+  },
+  {
+   "name": "Hendrik Christoffel van de Hulst",
+   "pid": 10639,
+   "noms": 30,
+   "other": []
+  },
+  {
+   "name": "Lester Halbert Germer",
+   "pid": 3400,
+   "noms": 27,
+   "other": []
+  },
+  {
+   "name": "Chien-Shiung Wu",
+   "pid": 10859,
+   "noms": 26,
+   "other": []
+  },
+  {
+   "name": "Donald William Kerst",
+   "pid": 4806,
+   "noms": 23,
+   "other": []
+  },
+  {
+   "name": "Ernest Rutherford",
+   "pid": 5627,
+   "noms": 20,
+   "other": [
+    [
+     "chemistry",
+     1908,
+     1908
+    ]
+   ]
+  },
+  {
+   "name": "Oskar Benjamin Klein",
+   "pid": 4889,
+   "noms": 20,
+   "other": []
+  },
+  {
+   "name": "Otto Hahn",
+   "pid": 3787,
+   "noms": 16,
+   "other": [
+    [
+     "chemistry",
+     1944,
+     1945
+    ]
+   ]
+  },
+  {
+   "name": "Irène Joliot-Curie",
+   "pid": 4615,
+   "noms": 15,
+   "other": [
+    [
+     "chemistry",
+     1935,
+     1935
+    ]
+   ]
+  },
+  {
+   "name": "Frédéric Joliot",
+   "pid": 4613,
+   "noms": 12,
+   "other": [
+    [
+     "chemistry",
+     1935,
+     1935
+    ]
+   ]
+  }
+ ],
+ "women_nominees": [
+  {
+   "name": "Lise Meitner",
+   "noms": 30,
+   "won": null,
+   "first": 1937,
+   "last": 1967,
+   "other": []
+  },
+  {
+   "name": "Maria Goeppert Mayer",
+   "noms": 26,
+   "won": 1963,
+   "first": 1955,
+   "last": 1963,
+   "other": []
+  },
+  {
+   "name": "Chien-Shiung Wu",
+   "noms": 26,
+   "won": null,
+   "first": 1958,
+   "last": 1975,
+   "other": []
+  },
+  {
+   "name": "Irène Joliot-Curie",
+   "noms": 15,
+   "won": null,
+   "first": 1934,
+   "last": 1935,
+   "other": [
+    [
+     "chemistry",
+     1935,
+     1935
+    ]
+   ]
+  },
+  {
+   "name": "Dorothy Crowfoot Hodgkin",
+   "noms": 8,
+   "won": null,
+   "first": 1956,
+   "last": 1961,
+   "other": [
+    [
+     "chemistry",
+     1964,
+     1964
+    ]
+   ]
+  },
+  {
+   "name": "Marietta Blau",
+   "noms": 4,
+   "won": null,
+   "first": 1950,
+   "last": 1957,
+   "other": []
+  },
+  {
+   "name": "Marie Curie",
+   "noms": 3,
+   "won": 1903,
+   "first": 1902,
+   "last": 1903,
+   "other": [
+    [
+     "chemistry",
+     1911,
+     1911
+    ]
+   ]
+  },
+  {
+   "name": "Margaret Burbidge",
+   "noms": 2,
+   "won": null,
+   "first": 1964,
+   "last": 1973,
+   "other": []
+  },
+  {
+   "name": "Hertha Wambacher",
+   "noms": 1,
+   "won": null,
+   "first": 1950,
+   "last": 1950,
+   "other": []
+  },
+  {
+   "name": "Janine Connes",
+   "noms": 1,
+   "won": null,
+   "first": 1970,
+   "last": 1970,
+   "other": []
+  }
+ ],
+ "nominee_share_women": 1.4,
+ "nominator_gender": {
+  "M": 1186,
+  "?": 606,
+  "F": 11
+ },
+ "women_nominators": [
+  {
+   "name": "Maria Goeppert Mayer",
+   "noms": 4,
+   "candidates": 1
+  },
+  {
+   "name": "Dorothy Crowfoot Hodgkin",
+   "noms": 3,
+   "candidates": 1
+  },
+  {
+   "name": "Marie Curie",
+   "noms": 2,
+   "candidates": 2
+  },
+  {
+   "name": "Hertha Sponer",
+   "noms": 2,
+   "candidates": 2
+  },
+  {
+   "name": "Marie-Antoinette Tonnelat",
+   "noms": 2,
+   "candidates": 2
+  },
+  {
+   "name": "Margaret Burbidge",
+   "noms": 2,
+   "candidates": 1
+  },
+  {
+   "name": "Inga Fischer-Hjalmars",
+   "noms": 2,
+   "candidates": 1
+  },
+  {
+   "name": "Anna Underhill",
+   "noms": 1,
+   "candidates": 1
+  },
+  {
+   "name": "Katharina Boll-Dornberger",
+   "noms": 1,
+   "candidates": 1
+  },
+  {
+   "name": "Berta Karlik",
+   "noms": 1,
+   "candidates": 1
+  },
+  {
+   "name": "Henriette Mathieu-Faraggi",
+   "noms": 1,
+   "candidates": 1
+  }
+ ],
+ "women_for_women": [],
+ "countries": [
+  {
+   "country": "United States",
+   "noms": 1332,
+   "candidates": 272,
+   "won": 86,
+   "pct": 32
+  },
+  {
+   "country": "Germany",
+   "noms": 975,
+   "candidates": 247,
+   "won": 80,
+   "pct": 32
+  },
+  {
+   "country": "France",
+   "noms": 680,
+   "candidates": 181,
+   "won": 55,
+   "pct": 30
+  },
+  {
+   "country": "United Kingdom",
+   "noms": 488,
+   "candidates": 145,
+   "won": 50,
+   "pct": 34
+  },
+  {
+   "country": "Sweden",
+   "noms": 444,
+   "candidates": 146,
+   "won": 63,
+   "pct": 43
+  },
+  {
+   "country": "Netherlands",
+   "noms": 235,
+   "candidates": 86,
+   "won": 43,
+   "pct": 50
+  },
+  {
+   "country": "Italy",
+   "noms": 214,
+   "candidates": 87,
+   "won": 41,
+   "pct": 47
+  },
+  {
+   "country": "Austria",
+   "noms": 203,
+   "candidates": 61,
+   "won": 20,
+   "pct": 33
+  },
+  {
+   "country": "Switzerland",
+   "noms": 199,
+   "candidates": 87,
+   "won": 46,
+   "pct": 53
+  },
+  {
+   "country": "Not recorded",
+   "noms": 189,
+   "candidates": 89,
+   "won": 27,
+   "pct": 30
+  },
+  {
+   "country": "Russia",
+   "noms": 184,
+   "candidates": 59,
+   "won": 25,
+   "pct": 42
+  },
+  {
+   "country": "Denmark",
+   "noms": 146,
+   "candidates": 33,
+   "won": 18,
+   "pct": 55
+  },
+  {
+   "country": "Norway",
+   "noms": 98,
+   "candidates": 36,
+   "won": 12,
+   "pct": 33
+  },
+  {
+   "country": "Poland",
+   "noms": 98,
+   "candidates": 45,
+   "won": 21,
+   "pct": 47
+  },
+  {
+   "country": "Finland",
+   "noms": 79,
+   "candidates": 33,
+   "won": 17,
+   "pct": 52
+  },
+  {
+   "country": "Japan",
+   "noms": 76,
+   "candidates": 49,
+   "won": 17,
+   "pct": 35
+  },
+  {
+   "country": "Canada",
+   "noms": 49,
+   "candidates": 31,
+   "won": 12,
+   "pct": 39
+  },
+  {
+   "country": "India",
+   "noms": 37,
+   "candidates": 20,
+   "won": 10,
+   "pct": 50
+  },
+  {
+   "country": "Belgium",
+   "noms": 35,
+   "candidates": 25,
+   "won": 8,
+   "pct": 32
+  },
+  {
+   "country": "Hungary",
+   "noms": 31,
+   "candidates": 17,
+   "won": 8,
+   "pct": 47
+  },
+  {
+   "country": "Australia",
+   "noms": 25,
+   "candidates": 15,
+   "won": 4,
+   "pct": 27
+  },
+  {
+   "country": "Czech Republic",
+   "noms": 24,
+   "candidates": 20,
+   "won": 4,
+   "pct": 20
+  },
+  {
+   "country": "Israel",
+   "noms": 22,
+   "candidates": 18,
+   "won": 12,
+   "pct": 67
+  },
+  {
+   "country": "Spain",
+   "noms": 20,
+   "candidates": 12,
+   "won": 5,
+   "pct": 42
+  },
+  {
+   "country": "Ireland",
+   "noms": 13,
+   "candidates": 10,
+   "won": 4,
+   "pct": 40
+  },
+  {
+   "country": "Tunisia",
+   "noms": 10,
+   "candidates": 2,
+   "won": 0,
+   "pct": 0
+  },
+  {
+   "country": "Croatia",
+   "noms": 9,
+   "candidates": 7,
+   "won": 5,
+   "pct": 71
+  },
+  {
+   "country": "Romania",
+   "noms": 7,
+   "candidates": 6,
+   "won": 2,
+   "pct": 33
+  },
+  {
+   "country": "Uruguay",
+   "noms": 5,
+   "candidates": 3,
+   "won": 1,
+   "pct": 33
+  },
+  {
+   "country": "Ukraine",
+   "noms": 4,
+   "candidates": 4,
+   "won": 1,
+   "pct": 25
+  },
+  {
+   "country": "South Africa",
+   "noms": 4,
+   "candidates": 4,
+   "won": 3,
+   "pct": 75
+  },
+  {
+   "country": "Slovakia",
+   "noms": 4,
+   "candidates": 3,
+   "won": 2,
+   "pct": 67
+  },
+  {
+   "country": "Turkey",
+   "noms": 4,
+   "candidates": 4,
+   "won": 1,
+   "pct": 25
+  },
+  {
+   "country": "Serbia",
+   "noms": 3,
+   "candidates": 3,
+   "won": 1,
+   "pct": 33
+  },
+  {
+   "country": "Bulgaria",
+   "noms": 3,
+   "candidates": 3,
+   "won": 2,
+   "pct": 67
+  },
+  {
+   "country": "Estonia",
+   "noms": 3,
+   "candidates": 3,
+   "won": 0,
+   "pct": 0
+  },
+  {
+   "country": "Greece",
+   "noms": 3,
+   "candidates": 3,
+   "won": 1,
+   "pct": 33
+  },
+  {
+   "country": "Chile",
+   "noms": 2,
+   "candidates": 2,
+   "won": 2,
+   "pct": 100
+  },
+  {
+   "country": "Peru",
+   "noms": 1,
+   "candidates": 1,
+   "won": 0,
+   "pct": 0
+  },
+  {
+   "country": "Brazil",
+   "noms": 1,
+   "candidates": 1,
+   "won": 0,
+   "pct": 0
+  },
+  {
+   "country": "Iceland",
+   "noms": 1,
+   "candidates": 1,
+   "won": 1,
+   "pct": 100
+  },
+  {
+   "country": "Egypt",
+   "noms": 1,
+   "candidates": 1,
+   "won": 1,
+   "pct": 100
+  },
+  {
+   "country": "Syria",
+   "noms": 1,
+   "candidates": 1,
+   "won": 0,
+   "pct": 0
+  },
+  {
+   "country": "New Zealand",
+   "noms": 1,
+   "candidates": 1,
+   "won": 0,
+   "pct": 0
+  },
+  {
+   "country": "Pakistan",
+   "noms": 1,
+   "candidates": 1,
+   "won": 1,
+   "pct": 100
+  }
+ ],
+ "nominators_by_candidates": [
+  {
+   "label": "1 candidate",
+   "people": 877
+  },
+  {
+   "label": "2–4",
+   "people": 721
+  },
+  {
+   "label": "5–9",
+   "people": 149
+  },
+  {
+   "label": "10 or more",
+   "people": 56
+  }
+ ],
+ "busiest_tenth": {
+  "people": 177,
+  "noms": 2697,
+  "share": 45,
+  "min_noms": 7,
+  "pct_people": 9.8
+ },
+ "top_nominators": [
+  {
+   "name": "James Franck",
+   "pid": 3167,
+   "noms": 71,
+   "candidates": 29,
+   "first": 1927,
+   "last": 1963,
+   "laureate": [
+    [
+     "physics",
+     1925,
+     1926
+    ]
+   ]
+  },
+  {
+   "name": "Glenn T. Seaborg",
+   "pid": 8323,
+   "noms": 52,
+   "candidates": 9,
+   "first": 1952,
+   "last": 1975,
+   "laureate": [
+    [
+     "chemistry",
+     1951,
+     1951
+    ]
+   ]
+  },
+  {
+   "name": "Louis de Broglie",
+   "pid": 2200,
+   "noms": 47,
+   "candidates": 28,
+   "first": 1930,
+   "last": 1967,
+   "laureate": [
+    [
+     "physics",
+     1929,
+     1929
+    ]
+   ]
+  },
+  {
+   "name": "Emil Warburg",
+   "pid": 9978,
+   "noms": 45,
+   "candidates": 22,
+   "first": 1901,
+   "last": 1931,
+   "laureate": []
+  },
+  {
+   "name": "Patrick M.S. Blackett",
+   "pid": 1057,
+   "noms": 43,
+   "candidates": 11,
+   "first": 1943,
+   "last": 1974,
+   "laureate": [
+    [
+     "physics",
+     1948,
+     1948
+    ]
+   ]
+  },
+  {
+   "name": "Max von Laue",
+   "pid": 9807,
+   "noms": 41,
+   "candidates": 23,
+   "first": 1916,
+   "last": 1955,
+   "laureate": [
+    [
+     "physics",
+     1914,
+     1915
+    ]
+   ]
+  },
+  {
+   "name": "Max Planck",
+   "pid": 7283,
+   "noms": 39,
+   "candidates": 20,
+   "first": 1901,
+   "last": 1947,
+   "laureate": [
+    [
+     "physics",
+     1918,
+     1919
+    ]
+   ]
+  },
+  {
+   "name": "Alfred Kastler",
+   "pid": 4727,
+   "noms": 37,
+   "candidates": 23,
+   "first": 1948,
+   "last": 1975,
+   "laureate": [
+    [
+     "physics",
+     1966,
+     1966
+    ]
+   ]
+  },
+  {
+   "name": "Maurice de Broglie",
+   "pid": 2198,
+   "noms": 37,
+   "candidates": 21,
+   "first": 1928,
+   "last": 1957,
+   "laureate": []
+  },
+  {
+   "name": "Niels Bohr",
+   "pid": 1118,
+   "noms": 37,
+   "candidates": 18,
+   "first": 1920,
+   "last": 1963,
+   "laureate": [
+    [
+     "physics",
+     1922,
+     1922
+    ]
+   ]
+  },
+  {
+   "name": "Karl Johann Freudenberg",
+   "pid": 3212,
+   "noms": 36,
+   "candidates": 10,
+   "first": 1953,
+   "last": 1973,
+   "laureate": []
+  },
+  {
+   "name": "Stefan Meyer",
+   "pid": 6243,
+   "noms": 34,
+   "candidates": 22,
+   "first": 1915,
+   "last": 1937,
+   "laureate": []
+  },
+  {
+   "name": "Carl Benedicks",
+   "pid": 854,
+   "noms": 32,
+   "candidates": 12,
+   "first": 1913,
+   "last": 1949,
+   "laureate": []
+  },
+  {
+   "name": "Lawrence Bragg",
+   "pid": 11051,
+   "noms": 32,
+   "candidates": 13,
+   "first": 1922,
+   "last": 1971,
+   "laureate": [
+    [
+     "physics",
+     1915,
+     1915
+    ]
+   ]
+  },
+  {
+   "name": "Werner Heisenberg",
+   "pid": 4018,
+   "noms": 32,
+   "candidates": 21,
+   "first": 1932,
+   "last": 1975,
+   "laureate": [
+    [
+     "physics",
+     1932,
+     1933
+    ]
+   ]
+  }
+ ],
+ "top_backer_bins": [
+  {
+   "label": "None",
+   "n": 306,
+   "won": 10,
+   "pct": 3
+  },
+  {
+   "label": "1",
+   "n": 177,
+   "won": 17,
+   "pct": 10
+  },
+  {
+   "label": "2 or 3",
+   "n": 93,
+   "won": 32,
+   "pct": 34
+  },
+  {
+   "label": "4 or more",
+   "n": 131,
+   "won": 71,
+   "pct": 54
+  }
+ ],
+ "best_pickers": [
+  {
+   "name": "Albert Einstein",
+   "candidates": 10,
+   "winners": 10,
+   "noms": 11,
+   "pct": 100
+  },
+  {
+   "name": "Léon Charles Prudent van Hove",
+   "candidates": 9,
+   "winners": 9,
+   "noms": 18,
+   "pct": 100
+  },
+  {
+   "name": "Gregor Wentzel",
+   "candidates": 7,
+   "winners": 7,
+   "noms": 17,
+   "pct": 100
+  },
+  {
+   "name": "Wolfgang Pauli",
+   "candidates": 11,
+   "winners": 10,
+   "noms": 14,
+   "pct": 91
+  },
+  {
+   "name": "Ernest Rutherford",
+   "candidates": 9,
+   "winners": 8,
+   "noms": 12,
+   "pct": 89
+  },
+  {
+   "name": "H. H. Staub",
+   "candidates": 8,
+   "winners": 7,
+   "noms": 10,
+   "pct": 88
+  },
+  {
+   "name": "Bruno Ferretti",
+   "candidates": 8,
+   "winners": 7,
+   "noms": 9,
+   "pct": 88
+  },
+  {
+   "name": "Eugene Wigner",
+   "candidates": 15,
+   "winners": 13,
+   "noms": 15,
+   "pct": 87
+  },
+  {
+   "name": "Clinton Davisson",
+   "candidates": 7,
+   "winners": 6,
+   "noms": 7,
+   "pct": 86
+  },
+  {
+   "name": "Torsten Valdemar Gustafson",
+   "candidates": 7,
+   "winners": 6,
+   "noms": 9,
+   "pct": 86
+  },
+  {
+   "name": "Tsung-Dao Lee",
+   "candidates": 7,
+   "winners": 6,
+   "noms": 9,
+   "pct": 86
+  },
+  {
+   "name": "Gordon Brims Black Sutherland",
+   "candidates": 6,
+   "winners": 5,
+   "noms": 14,
+   "pct": 83
+  },
+  {
+   "name": "Charles Kittel",
+   "candidates": 6,
+   "winners": 5,
+   "noms": 6,
+   "pct": 83
+  },
+  {
+   "name": "Pekka Jauho",
+   "candidates": 6,
+   "winners": 5,
+   "noms": 9,
+   "pct": 83
+  },
+  {
+   "name": "Vitaly L. Ginzburg",
+   "candidates": 6,
+   "winners": 5,
+   "noms": 20,
+   "pct": 83
+  }
+ ],
+ "most_winners_picked": [
+  {
+   "name": "Stefan Meyer",
+   "winners": 15,
+   "candidates": 22
+  },
+  {
+   "name": "Max von Laue",
+   "winners": 14,
+   "candidates": 23
+  },
+  {
+   "name": "James Franck",
+   "winners": 14,
+   "candidates": 29
+  },
+  {
+   "name": "Max Planck",
+   "winners": 13,
+   "candidates": 20
+  },
+  {
+   "name": "Emil Warburg",
+   "winners": 13,
+   "candidates": 22
+  }
+ ],
+ "single_nominee_nominators_pct": 49,
+ "most_nominated": [
+  {
+   "name": "Murray Gell-Mann",
+   "noms": 129,
+   "won": 1969,
+   "backers": 103,
+   "first": 1960,
+   "last": 1969
+  },
+  {
+   "name": "Aage N. Bohr",
+   "noms": 98,
+   "won": 1975,
+   "backers": 68,
+   "first": 1961,
+   "last": 1975
+  },
+  {
+   "name": "Louis Néel",
+   "noms": 96,
+   "won": 1970,
+   "backers": 67,
+   "first": 1952,
+   "last": 1970
+  },
+  {
+   "name": "Ben R. Mottelson",
+   "noms": 93,
+   "won": 1975,
+   "backers": 63,
+   "first": 1961,
+   "last": 1975
+  },
+  {
+   "name": "Arnold Sommerfeld",
+   "noms": 84,
+   "won": null,
+   "backers": 42,
+   "first": 1917,
+   "last": 1951
+  },
+  {
+   "name": "Otto Stern",
+   "noms": 82,
+   "won": 1943,
+   "backers": 47,
+   "first": 1925,
+   "last": 1945
+  },
+  {
+   "name": "Max Planck",
+   "noms": 74,
+   "won": 1918,
+   "backers": 50,
+   "first": 1907,
+   "last": 1919
+  },
+  {
+   "name": "Charles H. Townes",
+   "noms": 74,
+   "won": 1964,
+   "backers": 61,
+   "first": 1958,
+   "last": 1965
+  },
+  {
+   "name": "Samuel Abraham Goudsmit",
+   "noms": 71,
+   "won": null,
+   "backers": 54,
+   "first": 1935,
+   "last": 1975
+  },
+  {
+   "name": "George Eugene Uhlenbeck",
+   "noms": 71,
+   "won": null,
+   "backers": 54,
+   "first": 1947,
+   "last": 1975
+  },
+  {
+   "name": "Albert Einstein",
+   "noms": 66,
+   "won": 1921,
+   "backers": 40,
+   "first": 1910,
+   "last": 1923
+  },
+  {
+   "name": "Abdus Salam",
+   "noms": 65,
+   "won": 1979,
+   "backers": 45,
+   "first": 1958,
+   "last": 1975
+  },
+  {
+   "name": "Nikolai Nikolaevic Bogoljubov",
+   "noms": 59,
+   "won": null,
+   "backers": 42,
+   "first": 1959,
+   "last": 1975
+  },
+  {
+   "name": "Hans Bethe",
+   "noms": 56,
+   "won": 1967,
+   "backers": 54,
+   "first": 1943,
+   "last": 1967
+  },
+  {
+   "name": "Pyotr Kapitsa",
+   "noms": 52,
+   "won": 1978,
+   "backers": 34,
+   "first": 1946,
+   "last": 1975
+  },
+  {
+   "name": "Hannes Alfvén",
+   "noms": 52,
+   "won": 1970,
+   "backers": 36,
+   "first": 1953,
+   "last": 1970
+  },
+  {
+   "name": "Henri Poincaré",
+   "noms": 51,
+   "won": null,
+   "backers": 39,
+   "first": 1904,
+   "last": 1912
+  },
+  {
+   "name": "John Bardeen",
+   "noms": 50,
+   "won": 1956,
+   "backers": 8,
+   "first": 1953,
+   "last": 1972
+  },
+  {
+   "name": "Alfred Kastler",
+   "noms": 50,
+   "won": 1966,
+   "backers": 41,
+   "first": 1956,
+   "last": 1966
+  },
+  {
+   "name": "Richard P. Feynman",
+   "noms": 49,
+   "won": 1965,
+   "backers": 41,
+   "first": 1956,
+   "last": 1967
+  },
+  {
+   "name": "Martin Ryle",
+   "noms": 49,
+   "won": 1974,
+   "backers": 25,
+   "first": 1963,
+   "last": 1974
+  },
+  {
+   "name": "Bruno Benedetto Rossi",
+   "noms": 48,
+   "won": null,
+   "backers": 26,
+   "first": 1947,
+   "last": 1975
+  },
+  {
+   "name": "Lars Onsager",
+   "noms": 48,
+   "won": null,
+   "backers": 39,
+   "first": 1952,
+   "last": 1968
+  },
+  {
+   "name": "Friedrich Paschen",
+   "noms": 45,
+   "won": null,
+   "backers": 20,
+   "first": 1914,
+   "last": 1933
+  },
+  {
+   "name": "Clinton Davisson",
+   "noms": 44,
+   "won": 1937,
+   "backers": 25,
+   "first": 1929,
+   "last": 1937
+  }
+ ],
+ "most_nominated_never_won": [
+  {
+   "name": "Arnold Sommerfeld",
+   "noms": 84,
+   "won": null,
+   "backers": 42,
+   "first": 1917,
+   "last": 1951
+  },
+  {
+   "name": "Samuel Abraham Goudsmit",
+   "noms": 71,
+   "won": null,
+   "backers": 54,
+   "first": 1935,
+   "last": 1975
+  },
+  {
+   "name": "George Eugene Uhlenbeck",
+   "noms": 71,
+   "won": null,
+   "backers": 54,
+   "first": 1947,
+   "last": 1975
+  },
+  {
+   "name": "Nikolai Nikolaevic Bogoljubov",
+   "noms": 59,
+   "won": null,
+   "backers": 42,
+   "first": 1959,
+   "last": 1975
+  },
+  {
+   "name": "Henri Poincaré",
+   "noms": 51,
+   "won": null,
+   "backers": 39,
+   "first": 1904,
+   "last": 1912
+  },
+  {
+   "name": "Bruno Benedetto Rossi",
+   "noms": 48,
+   "won": null,
+   "backers": 26,
+   "first": 1947,
+   "last": 1975
+  },
+  {
+   "name": "Lars Onsager",
+   "noms": 48,
+   "won": null,
+   "backers": 39,
+   "first": 1952,
+   "last": 1968
+  },
+  {
+   "name": "Friedrich Paschen",
+   "noms": 45,
+   "won": null,
+   "backers": 20,
+   "first": 1914,
+   "last": 1933
+  }
+ ],
+ "corrections": 173,
+ "merges": 21,
+ "name_fixes": 3,
+ "linked": 25,
+ "country_fixes": 123,
+ "other_category_noms": {
+  "Louis Néel": {
+   "Chemistry": 2
+  },
+  "Lars Onsager": {
+   "Chemistry": 45
+  },
+  "Yevgeny Konstantinovich Zavoisky": {
+   "Chemistry": 5
+  },
+  "Erwin Wilhelm Müller": {
+   "Chemistry": 16
+  },
+  "Percy W. Bridgman": {
+   "Chemistry": 1
+  },
+  "Jean Baptiste Perrin": {
+   "Chemistry": 11
+  },
+  "Enrico Fermi": {
+   "Chemistry": 3
+  },
+  "Dennis Gabor": {
+   "Physiology or Medicine": 1
+  },
+  "Peter Debye": {
+   "Chemistry": 14
+  },
+  "Geoffrey Ingram Taylor": {
+   "Chemistry": 1
+  },
+  "John H. Van Vleck": {
+   "Chemistry": 2
+  },
+  "Lise Meitner": {
+   "Chemistry": 19
+  },
+  "Walter Heinrich Heitler": {
+   "Chemistry": 9
+  },
+  "J. Hans D. Jensen": {
+   "Chemistry": 1
+  },
+  "Maria Goeppert Mayer": {
+   "Chemistry": 1
+  },
+  "Emilio Segrè": {
+   "Chemistry": 9
+  },
+  "Hideki Yukawa": {
+   "Peace": 2
+  },
+  "John Clark Slater": {
+   "Chemistry": 29
+  },
+  "Ilya Prigogine": {
+   "Chemistry": 16
+  },
+  "Ernest Rutherford": {
+   "Chemistry": 4
+  },
+  "Heike Kamerlingh Onnes": {
+   "Chemistry": 3
+  },
+  "Niels Bohr": {
+   "Chemistry": 2
+  },
+  "Ernst Ruska": {
+   "Chemistry": 2,
+   "Physiology or Medicine": 1
+  },
+  "Bernd Theodor Matthias": {
+   "Chemistry": 3
+  },
+  "Wilhelm Conrad Röntgen": {
+   "Physiology or Medicine": 5
+  },
+  "Otto Hahn": {
+   "Chemistry": 23
+  },
+  "Irène Joliot-Curie": {
+   "Chemistry": 3
+  },
+  "Martin Deutsch": {
+   "Chemistry": 1
+  },
+  "Ryogo Kubo": {
+   "Chemistry": 1
+  },
+  "Klaus Clusius": {
+   "Chemistry": 39
+  },
+  "Svante Arrhenius": {
+   "Chemistry": 20,
+   "Physiology or Medicine": 2
+  },
+  "Frédéric Joliot": {
+   "Chemistry": 3
+  },
+  "Otto Robert Frisch": {
+   "Chemistry": 2
+  },
+  "Walter Hans Schottky": {
+   "Chemistry": 7
+  },
+  "Kai M. Siegbahn": {
+   "Chemistry": 18
+  },
+  "Frits Zernike": {
+   "Chemistry": 2
+  },
+  "Walther Nernst": {
+   "Chemistry": 76
+  },
+  "Dorothy Crowfoot Hodgkin": {
+   "Chemistry": 23
+  },
+  "Edwin M. McMillan": {
+   "Chemistry": 4
+  },
+  "Walther Kossel": {
+   "Chemistry": 1
+  },
+  "Walter H. Brattain": {
+   "Chemistry": 1
+  },
+  "Willard F. Libby": {
+   "Chemistry": 28
+  },
+  "Michael Polanyi": {
+   "Chemistry": 6
+  },
+  "James Dewar": {
+   "Chemistry": 3
+  },
+  "Karol Olszewski": {
+   "Chemistry": 1
+  },
+  "William Crookes": {
+   "Chemistry": 6
+  },
+  "William Bragg": {
+   "Chemistry": 1
+  },
+  "Irving Langmuir": {
+   "Chemistry": 10
+  },
+  "Auguste Lumière": {
+   "Physiology or Medicine": 1
+  },
+  "Jaroslav Heyrovsky": {
+   "Chemistry": 51,
+   "Physiology or Medicine": 11
+  },
+  "Georg von Békésy": {
+   "Physiology or Medicine": 1
+  },
+  "Kristian Birkeland": {
+   "Chemistry": 9
+  },
+  "Francis Simon": {
+   "Chemistry": 2
+  },
+  "Marietta Blau": {
+   "Chemistry": 1
+  },
+  "Herman Francis Mark": {
+   "Chemistry": 13
+  },
+  "Otto Kratky": {
+   "Chemistry": 21
+  },
+  "Marie Curie": {
+   "Chemistry": 2
+  },
+  "Allvar Gullstrand": {
+   "Physiology or Medicine": 4
+  },
+  "Francis W. Aston": {
+   "Chemistry": 1
+  },
+  "Edwin Herbert Land": {
+   "Chemistry": 3
+  },
+  "Max F. Perutz": {
+   "Chemistry": 15
+  },
+  "John C. Kendrew": {
+   "Chemistry": 11
+  },
+  "Friedrich Hund": {
+   "Chemistry": 4
+  },
+  "Erich Hückel": {
+   "Chemistry": 29
+  },
+  "Georgy Nikolayevich Flerov": {
+   "Chemistry": 5
+  },
+  "Ernst Abbe": {
+   "Physiology or Medicine": 6
+  },
+  "Edouard Branly": {
+   "Chemistry": 1
+  },
+  "The Svedberg": {
+   "Chemistry": 11
+  },
+  "Karl-Friedrich Bonhoeffer": {
+   "Chemistry": 4
+  },
+  "John Desmond Bernal": {
+   "Chemistry": 1
+  },
+  "Max Schmidt": {
+   "Chemistry": 1
+  },
+  "Carl Nordling": {
+   "Chemistry": 1
+  },
+  "André Guinier": {
+   "Chemistry": 2
+  },
+  "Grenville Clark": {
+   "Peace": 41
+  },
+  "Sir William Ramsay": {
+   "Chemistry": 30
+  },
+  "Gustaf de Laval": {
+   "Chemistry": 1
+  },
+  "Henry Le Châtelier": {
+   "Chemistry": 31
+  },
+  "Charles Darwin": {
+   "Chemistry": 1
+  },
+  "Henry Moseley": {
+   "Chemistry": 1
+  },
+  "Kasimir Fajans": {
+   "Chemistry": 6
+  },
+  "Frederick Soddy": {
+   "Chemistry": 5
+  },
+  "Harold C. Urey": {
+   "Chemistry": 1
+  },
+  "Alexander Gurwitsch [Gurvitsch]": {
+   "Physiology or Medicine": 10
+  },
+  "Arthur Neville Chamberlain": {
+   "Peace": 9
+  },
+  "William F. Giauque": {
+   "Chemistry": 14
+  },
+  "George de Hevesy": {
+   "Chemistry": 31
+  },
+  "Albert Portevin": {
+   "Chemistry": 5
+  },
+  "Leo Szilard": {
+   "Chemistry": 1
+  },
+  "Joseph Mattauch": {
+   "Chemistry": 2
+  },
+  "Georges Lemaître": {
+   "Chemistry": 1
+  },
+  "Fritz London": {
+   "Chemistry": 4
+  },
+  "William Hume-Rothery": {
+   "Chemistry": 2
+  },
+  "Friedrich Dessauer": {
+   "Physiology or Medicine": 1
+  },
+  "Carl Wilhelm Wagner": {
+   "Chemistry": 22
+  },
+  "Nikolay Vasilyevich Belov": {
+   "Chemistry": 1
+  },
+  "Hiroomi Umezawa": {
+   "Chemistry": 2
+  },
+  "Edward Teller": {
+   "Chemistry": 1
+  },
+  "Yakov Borisovich Zeldovich": {
+   "Chemistry": 1
+  },
+  "Nikolay Markovich Emanuel": {
+   "Chemistry": 5
+  },
+  "Alan Walsh": {
+   "Chemistry": 13
+  },
+  "Francis Crick": {
+   "Chemistry": 7
+  },
+  "James Watson": {
+   "Chemistry": 7
+  },
+  "Maurice Wilkins": {
+   "Chemistry": 2
+  },
+  "Jerome Karle": {
+   "Chemistry": 1
+  },
+  "Peter Mitchell": {
+   "Chemistry": 1
+  },
+  "Witali Iossifowitsch Goldanskij": {
+   "Chemistry": 4
+  },
+  "Alexander Sergeevich Davidov": {
+   "Chemistry": 1
+  }
+ }
+}

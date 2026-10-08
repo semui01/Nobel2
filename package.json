@@ -1,0 +1,19 @@
+{
+  "name": "nobel-nominations",
+  "private": true,
+  "type": "module",
+  "description": "Data stories built from the Nobel Prize nomination archive",
+  "scripts": {
+    "scrape": "python3 scripts/scrape_archive.py --prize physics",
+    "parse": "python3 scripts/parse_archive.py --prize physics",
+    "story": "python3 scripts/build_story.py --prize physics",
+    "map": "node scripts/build_map.mjs physics",
+    "site": "node scripts/build_site.mjs physics",
+    "build": "npm run parse && npm run story && npm run map && npm run site"
+  },
+  "devDependencies": {
+    "d3-geo": "3.1.1",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  }
+}

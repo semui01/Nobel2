@@ -1,0 +1,328 @@
+<title>How to Win the Physics Nobel</title>
+<meta name="description" content="What 75 years of sealed nomination letters say about who wins the Nobel Prize in Physics, and who doesn't.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/*{{CSS}}*/
+</style>
+
+<header class="bar">
+  <div class="bar__in">
+    <a class="wordmark" href="#top">Nomination Files</a>
+    <span class="bar__series">Nobel Prize nomination archive · <b>Physics</b></span>
+    <nav class="bar__nav" aria-label="Sections">
+      <a href="#story">Story</a>
+      <a href="#database">Database</a>
+      <a href="#methodology">Methodology</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch between light and dark">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1.2v10.6A5.3 5.3 0 0 1 8 2.7Z" fill="currentColor"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="story" id="story" aria-label="Story">
+    <div class="stage" id="stage">
+      <canvas class="dots" id="dots" aria-hidden="true"></canvas>
+      <svg class="lines" id="lines" aria-hidden="true"></svg>
+      <div class="annot" id="annot" aria-hidden="true"></div>
+      <div class="legend" id="legend" aria-hidden="true"></div>
+      <div class="sr-only" id="chart-desc" aria-live="polite"></div>
+    </div>
+
+    <div class="steps" id="steps">
+      <div class="step step--hero" data-scene="medal">
+        <div class="masthead">
+          <p class="eyebrow">The Nobel Prize nomination archive, 1901–1975</p>
+          <h1>How to win the Physics Nobel</h1>
+          <p class="deck">What {{letters}} sealed nomination letters say about who wins the Nobel Prize in Physics, and who doesn't</p>
+          <p class="credit">An analysis of the Nobel Prize nomination archive · October 2026</p>
+          <p class="ticker" id="ticker"><b id="ticker-years">1901–1975</b> <span id="ticker-count">{{nominations}} nominations</span></p>
+          <p class="scroll-cue" aria-hidden="true">Scroll</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="years">
+        <div class="card">
+          <p>The Nobel Prize in Physics is awarded by the Royal Swedish Academy of Sciences. Every year its Nobel Committee for Physics asks for nominations, and every year the letters are sealed.</p>
+          <p>Nominations stay secret for 50 years, and the public archive leaves out any letter whose nominee is still alive. For physics the archive now runs from 1901, the year of the first prize, to 1975: {{letters}} letters naming {{nominees}} people.</p>
+          <p>Every dot <span class="k k-slate"></span> on this chart is one nomination: one person putting one physicist forward in one year, {{nominations}} in all. Gold <span class="k k-gold"></span> marks a nomination for someone who went on to win the physics prize.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="year-names" data-align="right">
+        <div class="card">
+          <h2>Which year you were in</h2>
+          <p>Timing mattered. In {{quiet_year}}, with Europe at war, {{quiet_noms}} nominations arrived for {{quiet_names}} physicists, and no physics prize was awarded that year. By {{busy_year}} the archive holds {{busy_noms}} nominations for {{busy_names}} names.</p>
+          <p>A star <span class="k k-star"></span> marks a nominee who won the physics prize that year. In 1975, Aage Bohr, Ben Mottelson and James Rainwater shared it.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="bins-noms">
+        <div class="card">
+          <h2>More nominations, better odds</h2>
+          <p>More nominations meant better odds. Of the {{bn0_n}} physicists nominated once, {{bn0_won}} won. Of the {{bn4_n}} nominated 20 times or more, {{bn4_won}} did ({{bn4_pct}}%).</p>
+          <p>Physicists nominated more than once appear as clusters <span class="k k-cluster"></span> of their nominations. Hover over a cluster to see who it is.</p>
+          <p>In all, {{winners}} people in the archive won the physics prize: {{winners_by_end}} of them by 1975 and {{winners_after}} later, the last in {{last_winner_year}}.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="swarm-backers">
+        <div class="card">
+          <h2>How many different people</h2>
+          <p>The count of letters was not the whole story. The count of letter writers mattered more: twenty nominations from one loyal colleague are not twenty from twenty colleagues.</p>
+          <p>Of the {{b10_hi_n}} physicists with ten or more different backers, {{b10_hi_pct}}% won. Of the {{b10_lo_n}} with fewer, {{b10_lo_pct}}% did.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="bins-countries">
+        <div class="card">
+          <h2>How many different countries</h2>
+          <p>Backing from several countries helped too. Of the {{c4_n}} physicists nominated from four or more countries, {{c4_pct}}% won, against {{c1_pct}}% of the {{c1_n}} nominated from only one.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="bins-swedish">
+        <div class="card">
+          <h2>The Swedish thumb</h2>
+          <p>One country counted for more than the rest.</p>
+          <p>Each year the Academy invites its own members, the members of the Nobel Committees for Physics and Chemistry, and physics professors at Nordic universities to nominate, along with past laureates and professors at universities it picks abroad.</p>
+          <p>Nominators in Sweden wrote {{sw_share}}% of the nominations in the archive. Yet {{sw_with_pct}}% of the {{sw_with_n}} physicists with at least one Swedish backer won, against {{sw_without_pct}}% of those with none.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="bins-laureates">
+        <div class="card">
+          <h2>Who signs it</h2>
+          <p>Physics and chemistry laureates are invited to nominate every year. {{laureate_share}}% of the nominations in the archive came from someone who already had a Nobel Prize <span class="k k-ring"></span>.</p>
+          <p>Of the {{l2_n}} physicists backed by two or more laureates, {{l2_pct}}% won. Of the {{l0_n}} with no laureate behind them, {{l0_pct}}% did.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="fit">
+        <div class="card">
+          <h2>Who fits the bill</h2>
+          <p>Put those together and a profile emerges: at least 10 nominations, from at least 10 people, in at least four countries, including two laureates and one nominator in Sweden.</p>
+          <p>{{fit_n}} physicists in the archive met all five conditions, and {{fit_won}} of them ({{fit_pct}}%) won.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="overlooked" data-align="right">
+        <div class="card">
+          <h2>The overlooked</h2>
+          <p>That leaves {{over_n}} who cleared the same bar and never won the physics prize.</p>
+          <p>Four of them won the Nobel Prize in Chemistry <span class="k k-medal"></span> instead: Ernest Rutherford, Irène Joliot-Curie, Frédéric Joliot and Otto Hahn. None of the others won a Nobel Prize at all.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="ran" data-align="right">
+        <div class="card">
+          <h2>How long they ran</h2>
+          <p>Like many winners, they were nominated year after year. Henri Poincaré drew {{poin_noms}} nominations between 1904 and 1912, the year he died.</p>
+          <p>Nikolai Bogoliubov's nominations ran from 1959 to the end of the archive in 1975: {{bog_noms}} of them, from {{bog_backers}} people.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="sommerfeld" data-align="right">
+        <div class="card">
+          <h2>Arnold Sommerfeld</h2>
+          <p>No physicist in the archive was nominated more often without winning. Arnold Sommerfeld drew {{som_noms}} nominations from {{som_backers}} people in {{som_countries}} countries between 1917 and 1951, {{som_laureates}} of those people laureates <span class="k k-ring"></span>.</p>
+          <p>He met every condition but one: no nominator in Sweden <span class="k k-flag"></span> ever put his name forward.</p>
+          <p>Several of his students won the prize, among them Werner Heisenberg, Wolfgang Pauli and Hans Bethe. Sommerfeld died in 1951 after being hit by a car in Munich.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="spin" data-align="right">
+        <div class="card">
+          <h2>Goudsmit and Uhlenbeck</h2>
+          <p>Samuel Goudsmit and George Uhlenbeck were graduate students in Leiden in 1925 when they proposed that the electron spins.</p>
+          <p>They were nominated together on {{gu_joint}} letters, and each drew {{gu_noms}} nominations from {{gu_backers}} people, {{gu_laureates}} of them laureates. A line <span class="k k-line"></span> joins two nominations made on the same letter.</p>
+          <p>Like Sommerfeld, they never had a backer in Sweden. Neither won.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="meitner" data-align="right">
+        <div class="card">
+          <h2>Lise Meitner</h2>
+          <p>Lise Meitner was nominated {{mei_noms}} times for the physics prize between 1937 and 1967, and {{mei_chem}} times for chemistry: {{mei_total}} in all.</p>
+          <p>Her physics letters most often paired her with her nephew Otto Frisch ({{mei_frisch}} letters), with whom she explained nuclear fission in 1939, or with Otto Hahn ({{mei_hahn}}). Hahn alone received the 1944 chemistry prize.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="einstein" data-align="right">
+        <div class="card">
+          <h2>Albert Einstein</h2>
+          <p>Winners waited too. Albert Einstein was first nominated in 1910, by the chemist Wilhelm Ostwald. Between 1910 and 1922, {{ein_backers}} people nominated him {{ein_noms}} times.</p>
+          <p>The committee held back the 1921 prize and gave it to Einstein in November 1922, for his discovery of the law of the photoelectric effect rather than for relativity.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="women" data-align="right">
+        <div class="card">
+          <h2>The women</h2>
+          <p>Women are rare in this archive: {{women_n}} of the {{nominees}} people nominated for the physics prize. Two of them won it, Marie Curie in 1903 and Maria Goeppert Mayer in 1963. The next woman to win the physics prize was Donna Strickland, in 2018.</p>
+          <p>Chien-Shiung Wu, whose 1957 experiment showed that nature can tell left from right, was nominated {{wu_noms}} times from 1958 on and never won.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="women-writers" data-align="right">
+        <div class="card">
+          <h2>Who was doing the writing</h2>
+          <p>Women were rarer still among the writers: {{wn_n}} of the {{named}} nominators the archive names are recorded as women.</p>
+          <p>None of their {{wn_noms}} nominations was for a woman. Marie Curie nominated J.J. Thomson and Henri Poincaré.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="gender">
+        <div class="card">
+          <h2>What the archive does not say</h2>
+          <p>For {{ng_unknown}} of the {{nominators}} nominators ({{ng_pct}}%), the archive records no gender at all. Among them are {{anon_letters}} letters from 1962 to 1975 whose writers' names are withheld because they may still be alive.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="map" data-align="left">
+        <div class="card">
+          <h2>Where the letters came from</h2>
+          <p>Nominations came from {{countries_n}} countries, counted by today's borders. The United States and Germany sent the most.</p>
+          <p>Among countries that sent more than 30, Denmark was best at picking winners: {{dk_pct}}% of the physicists it put forward won. Switzerland ({{ch_pct}}%) and Finland ({{fi_pct}}%) came next, then the Netherlands and India ({{nl_pct}}% each).</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="bins-writers">
+        <div class="card">
+          <h2>Who these people were</h2>
+          <p>Most nominators wrote rarely. {{w1_n}} of them, nearly half, put forward a single physicist. Only {{w10_n}} put forward ten or more.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="busiest">
+        <div class="card">
+          <h2>The busiest tenth</h2>
+          <p>The busiest tenth of nominators, the {{bt_people}} people who each wrote {{bt_min}} or more nominations, wrote {{bt_share}}% of all the nominations in the archive.</p>
+          <p>The most prolific was James Franck: {{franck_noms}} nominations for {{franck_cands}} physicists between 1927 and 1963.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="professionals" data-align="right">
+        <div class="card">
+          <h2>The regulars</h2>
+          <p>Many of the busiest writers were laureates, invited every year once they had won. Franck started in 1927, the year after his own prize was announced.</p>
+          <p>Glenn Seaborg, who won the chemistry prize, wrote {{seab_noms}} physics nominations but backed only {{seab_cands}} people.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="rights">
+        <div class="card">
+          <h2>Who was allowed to write</h2>
+          <p>Until 1949 the archive records the right under which each letter was invited. Professors at universities the Academy picked wrote {{r_inv}}% of those nominations, members of the Academy {{r_acad}}%, and previous laureates {{r_laur}}%.</p>
+          <p>Members of the Nobel Committees for Physics and Chemistry wrote {{r_comm}}%.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="bins-top">
+        <div class="card">
+          <h2>What their backing was worth</h2>
+          <p>Having the busiest nominators in your corner paid off. Of the {{tb3_n}} physicists backed by four or more of them, {{tb3_pct}}% won. Of the {{tb0_n}} backed by none, {{tb0_pct}}% did.</p>
+        </div>
+      </div>
+
+      <div class="step" data-scene="pickers" data-align="right">
+        <div class="card">
+          <h2>Who could pick a winner</h2>
+          <p>Some nominators had an eye for winners. Albert Einstein put forward ten physicists, and all ten won the prize. Léon Van Hove picked nine of nine, and Gregor Wentzel seven of seven.</p>
+          <p>Stefan Meyer, who ran Vienna's Institute for Radium Research, picked the most eventual winners: {{meyer_won}} of the {{meyer_cands}} physicists he nominated.</p>
+        </div>
+      </div>
+
+      <div class="step step--outro" data-scene="outro">
+        <div class="card card--quiet">
+          <p class="outro">{{nominations}} nominations. {{nominees}} physicists. {{winners}} of them eventual laureates.</p>
+          <p class="outro-sub">Each dot is a letter someone sat down to write.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="database" id="database" aria-labelledby="db-title">
+    <div class="wrap">
+      <p class="eyebrow">Database</p>
+      <h2 id="db-title">Everyone nominated, and who backed them</h2>
+      <p class="lede">All {{nominees}} people nominated for the Nobel Prize in Physics from 1901 to 1975. The search also matches nominators, so a name like Einstein or Bohr shows everyone they put forward. Select a row for the year-by-year record.</p>
+      <div class="db-tools">
+        <label class="search" for="db-search">
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11.2 10.1l3.6 3.6-1.1 1.1-3.6-3.6a5.5 5.5 0 1 1 1.1-1.1ZM6.8 11a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4Z" fill="currentColor"/></svg>
+          <input id="db-search" type="search" placeholder="Search nominees and nominators" autocomplete="off">
+        </label>
+        <div class="db-filter" role="group" aria-label="Filter">
+          <button type="button" data-filter="all" aria-pressed="true">Everyone</button>
+          <button type="button" data-filter="won" aria-pressed="false">Won physics</button>
+          <button type="button" data-filter="never" aria-pressed="false">Never won</button>
+          <button type="button" data-filter="women" aria-pressed="false">Women</button>
+        </div>
+        <p class="db-count" id="db-count" aria-live="polite"></p>
+      </div>
+      <div class="table-scroll">
+        <table class="people" id="db-table">
+          <thead>
+            <tr>
+              <th scope="col" data-sort="name" class="l">Name</th>
+              <th scope="col" data-sort="noms" aria-sort="descending">Nominations</th>
+              <th scope="col" data-sort="first" class="l">Years</th>
+              <th scope="col" data-sort="backers">Backers</th>
+              <th scope="col" data-sort="laureates">Laureate backers</th>
+              <th scope="col" data-sort="swedes">Swedish backers</th>
+              <th scope="col" data-sort="countries">Countries</th>
+              <th scope="col" data-sort="home" class="l">Based in</th>
+            </tr>
+          </thead>
+          <tbody id="db-body"></tbody>
+        </table>
+      </div>
+      <button class="more" id="db-more" type="button">Show more</button>
+      <p class="db-note">Medal <span class="k k-medal"></span> marks a Nobel laureate in physics; a ring <span class="k k-ring"></span> marks one in another category. Rates in the story leave out the {{after_win}} nominations sent after a nominee's own prize; this table counts them.</p>
+    </div>
+  </section>
+
+  <section class="methodology" id="methodology" aria-labelledby="m-title">
+    <div class="wrap">
+      <h2 id="m-title">Methodology and data sources</h2>
+      <div class="note">
+        <h3>In short</h3>
+        <p>This analysis covers every nomination for the Nobel Prize in Physics from 1901 to 1975 that the Nobel Prize nomination archive has made public. A nomination is one person putting one physicist forward in one year: a letter with several signers or nominees counts once for each pairing. "Won" means won the physics prize at any time, including after 1975. Nominations sent after a nominee's own prize was announced ({{after_win}}, for {{after_win_people}} laureates) are left out of every rate but kept in totals and the database. A laureate backer is a nominator whose own Nobel Prize, in any category, had been announced before the nomination. A nomination's country is the one it was sent from, under today's borders. Figures reflect the archive as read in October 2026.</p>
+      </div>
+
+      <h3>Scope</h3>
+      <p>The archive holds {{letters}} physics letters for 1901–1975, which give {{nominations}} nominations: {{nominees}} people nominated and {{nominators}} nominators. Nominations stay secret for 50 years, and by the archive's rules any letter naming a nominee who is still alive is left out entirely, so recent years under-represent physicists who are still living.</p>
+
+      <h3>Sources</h3>
+      <p>The Nobel Prize nomination archive at nobelprize.org: each year's list for physics, every letter's page and every person's page, read in October 2026. The Nobel Prize's laureate records (api.nobelprize.org) for who won which prize and when each prize was announced. Country outlines from Natural Earth via the world-atlas package.</p>
+
+      <h3>Cleaning</h3>
+      <p>Names are shown as the archive gives them, without middle initials and with {{name_fixes}} misspellings corrected; laureates are shown by the name in the Nobel Prize's records. Where the archive files one person under two records, they were joined only when the names could not belong to different people: the same first and last name with birth years that agree; two spellings or transliterations of one name with the same birth year (Zavojskij and Zavoisky, Mueller and Müller); two identical sets of initials writing from the same country; or two records that match the same laureate. {{merges}} records were joined this way.</p>
+      <p>The archive links laureates to their prizes only some of the time, rarely for prizes after 1975. {{linked}} more laureates were found in the Nobel Prize's records by matching name and birth year, so that someone like Frederick Reines, nominated from 1960 and awarded the prize in 1995, counts as a winner.</p>
+      <p>Where a letter's city contradicts its country (letters from Leiden filed under Germany, for example), the city decides; {{country_fixes}} addresses were corrected this way. Countries are counted by today's borders: letters from the Soviet Union count under Russia or Ukraine by city, and letters from Strasbourg before 1919 count under France. Gender comes from the archive or the Nobel Prize's records, never from a first name; the archive's other gender codes are treated as not recorded. Every change is listed, with its basis, in the corrections file that accompanies the data.</p>
+
+      <h3>Analysis</h3>
+      <p>Rates compare people, not nominations: "{{b10_hi_pct}}% won" means {{b10_hi_pct}}% of the physicists in that group won the physics prize. Backers are distinct nominators; a letter whose writer the archive withholds ("N.N.", {{anon_letters}} letters from 1962 to 1975) counts as one nominator. A Swedish backer is a nominator writing from Sweden. The busiest tenth are the {{bt_people}} nominators ({{bt_pct_people}}% of all nominators) who wrote {{bt_min}} or more nominations each. The right to nominate (professor at an invited university, Academy member and so on) is recorded consistently only until 1949.</p>
+
+      <h3>Limitations</h3>
+      <p>The archive is not complete, and it says so. It adds years and corrections over time. Professions and institutions are the archive's own wording and sometimes reflect a person's later posts. Some nominees are institutions rather than people. This is an independent analysis; it is not affiliated with the Nobel Foundation or the Royal Swedish Academy of Sciences.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Data: Nobel Prize nomination archive and laureate records, © The Nobel Foundation. Analysis and graphics built from that data in October 2026.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip" role="status" hidden></div>
+
+<script type="application/json" id="data">/*{{DATA}}*/</script>
+<script type="application/json" id="map-data">/*{{MAP}}*/</script>
+<script>
+/*{{JS}}*/
+</script>
